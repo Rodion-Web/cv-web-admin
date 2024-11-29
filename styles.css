@@ -132,7 +132,7 @@ a.btn:hover {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   padding: 20px;
-  height: 40vh;
+  height: 50vh;
   /* Фиксированная высота */
   overflow-y: auto;
   /* Скролл при переполнении */
