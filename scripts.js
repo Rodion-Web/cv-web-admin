@@ -28,7 +28,7 @@ gsap.from("#hero-subtitle", {
 document.addEventListener("DOMContentLoaded", function () {
   let myCarousel = document.querySelector("#experienceCarousel");
   let carousel = new bootstrap.Carousel(myCarousel, {
-    // interval: 5000, // Автопрокрутка каждые 5 секунд
+    interval: 50000, // Автопрокрутка каждые 5 секунд
     wrap: true, // Возврат к первому слайду после последнего
   });
 });
