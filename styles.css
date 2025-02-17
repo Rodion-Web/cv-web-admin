@@ -107,11 +107,32 @@ a.btn:hover {
   text-align: center;
 }
 /* Карточка опыта работы */
+
+/* Слайд для мобильных устройств */
+
+/* Скрываем слайдер на больших экранах */
+@media (min-width: 576px) {
+  #experienceCarousel {
+    display: none;
+  }
+}
+
+/* Показываем блок только на мобильных */
+@media (max-width: 576px) {
+  #experience .row {
+    display: none;
+  }
+
+  #experienceCarousel {
+    display: block;
+  }
+}
+
 .experience-card {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   padding: 20px;
-  height: 40vh;
+  height: 50vh;
   /* Фиксированная высота */
   overflow-y: auto;
   /* Скролл при переполнении */

@@ -23,3 +23,12 @@ gsap.from("#hero-subtitle", {
   duration: 1.5,
   ease: "power4.out",
 });
+
+// Слайд для мобильных устройств
+document.addEventListener("DOMContentLoaded", function () {
+  let myCarousel = document.querySelector("#experienceCarousel");
+  let carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 50000, // Автопрокрутка каждые 5 секунд
+    wrap: true, // Возврат к первому слайду после последнего
+  });
+});
