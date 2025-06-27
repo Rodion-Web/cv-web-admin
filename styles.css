@@ -561,3 +561,7 @@ a.btn:hover {
     font-size: 2rem;
   }
 }
+a {
+color: rgb(255 238 0);
+text-decoration: none;
+}
